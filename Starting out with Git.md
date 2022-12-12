@@ -53,7 +53,13 @@ This will give you an overview of your commits with their respective â€œhashesâ€
 
 `git log --oneline` 
 
-If you want to go back to a given commit, use the command below and copy paste the hash
+### Reverting to previous version
+
+If you made changes that you don't want to "save" and just want to go back to your last commit, use:
+
+`git checkout -- <file name>`
+
+If you instead want to go back to a previous commit, use the command below and copy paste the hash of the commit
 
 `git checkout <hash of commit>`
 
