@@ -53,7 +53,7 @@ This will give you an overview of your commits with their respective â€œhashesâ€
 
 `git log --oneline` 
 
-### Reverting to previous version
+### Accessing a previous version
 
 If you made changes that you don't want to "save" and just want to go back to your last commit, use:
 
