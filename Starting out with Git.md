@@ -4,6 +4,7 @@ This is meant as a cheat sheet to help PhD students and other researchers get st
 ### Common commands
 
 Initialize a repository in your current folder
+
 `git init`
 
 Get an overview of what’s going on
