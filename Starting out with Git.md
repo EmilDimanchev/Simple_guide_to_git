@@ -49,7 +49,7 @@ Renaming branches
 
 Deleting branches
 
-`git branch -d temp`
+`git branch -d <branch name>`
 
 ### Keeping track of your commits
 
@@ -71,7 +71,7 @@ You will now find yourself in what is called a “detached head”. If you want 
 
 First, make a new branch
 
-`git checkout <a new branch name>`
+`git branch <a new branch name>`
 
 Then, go into it
 
