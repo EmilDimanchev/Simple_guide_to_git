@@ -59,7 +59,7 @@ If you made changes that you don't want to "save" and just want to go back to yo
 
 `git checkout -- <file name>`
 
-If you instead want to go back to a previous commit, use the command below and copy paste the hash of the commit
+Alternatively, let's say you have committed your latest changes, but want to go back to a previous commit. Use the command below (remember you can access the commit hash with `git log --oneline`)
 
 `git checkout <hash of commit>`
 
