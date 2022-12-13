@@ -87,7 +87,7 @@ Alternatively, if you have made changes to the new branch, and want to reflect t
 
 `git checkout main`
 
-`git merge <the name of the new branch> -m <a message describing the change>`
+`git merge <the name of the new branch> -m "a message describing the change"`
 
 ### Interacting to Github
 
