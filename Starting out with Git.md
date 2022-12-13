@@ -47,6 +47,10 @@ Renaming branches
 
 `git branch -M <new name>`
 
+Deleting branches
+
+`git branch -d temp`
+
 ### Keeping track of your commits
 
 This will give you an overview of your commits with their respective “hashes” which are essentially reference codes
@@ -72,6 +76,16 @@ First, make a new branch
 Then, go into it
 
 `git checkout <the name of the new branch>`
+
+If you want your main branch to point to this new commit
+
+`git checkout main`
+`git branch -f main <the name of the new branch>`
+
+Alternatively, if you have made changes to the new branch, and want to reflect them in the main branch, use
+
+`git checkout main`
+`git merge <the name of the new branch> -m <a message describing the change>`
 
 ### Interacting to Github
 
